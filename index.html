@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link type="text/css" rel="styleSheet"  href="css/index.css">
+</head>
+<body>
+    <div class="divSearch">
+        <input type="text" class="inputSearch" placeholder="输入搜索内容">
+        <input type="button" value="搜索" class="btnSearch">
+    </div>
+    <div class="divBottom">
+        <div class="divNavbg">
+            <nav>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">新闻</a></li>
+                    <li><a href="#">热门</a></li>
+                    <li><a href="#">学习</a></li>
+                    <li><a href="#">提问</a></li>
+                    <li id="myaccount"><a href="#">我的</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="divPhoto">
+            <img src="photos/chinaView1.jpg" id="showphoto">
+            <button id="btnleft">＜</button>
+            <button id="btnright">＞</button>
+        </div>
+
+        <div class="divHot">
+            <span>热搜榜</span>
+            <ol>
+                <li><a href="https://baijiahao.baidu.com/s?id=1751095948115230822">江泽民伟大光辉的一生</a></li>
+                <li><a href="https://haokan.baidu.com/v?pd=wisenatural&vid=10540756040126988577">江泽民同志遗体由专机敬移北京</a></li>
+                <li><a href="https://baijiahao.baidu.com/s?id=1751007239721985725">世界首条高寒地区高铁10岁了</a></li>
+                <li><a href="https://baijiahao.baidu.com/s?id=1751084071896088977">张文宏团队：走出疫情前景愈发清晰</a></li>
+                <li><a href="https://sports.sohu.com/a/612704807_120078003">西班牙主教练称被日本打崩了</a></li>
+                <li><a href="https://www.thepaper.cn/newsDetail_forward_20992529">德国距离出线仅有1.88毫米</a></li>
+                <li><a href="https://www.dongqiudi.com/articles/3142259.html">周琦被入室盗窃</a></li>
+                <li><a href="https://baijiahao.baidu.com/s?id=1751012545722849230">专家称气溶胶传播是小概率事件</a></li>
+                <li><a href="https://baijiahao.baidu.com/s?id=1751080465777982805&wfr=spider&for=pc">多地调整：不查核酸 密接居家隔离</a></li>
+                <li><a href="https://haokan.baidu.com/v?vid=14280575361134462874&backflow=1&pd=d_push&pagepd=d_push">男子毕业待业5年欠30万贷款</a></li>
+            </ol>
+        </div>
+        <footer>
+            Copyright © 2022 Mxc All Rights Reserved.
+        </footer>
+    </div>
+    
+    <div class="toHelp"></div>
+    <div id="loginBg"></div>
+    <div id="loginBox">
+            <label id="loginTitle">欢迎登录</label><br>
+            <form id="loginForm">
+                <label class="loginLabel">用户名：</label><input type="text" class="loginInput" id="inputId"><br>
+                <span class="loginAlert" id="alert1">请输入账号</span>
+                <label class="loginLabel">密&emsp;码：</label><input type="password" class="loginInput" id="inputPass"><br>
+                <span class="loginAlert" id="alert2">请输入密码</span>
+                <label class="loginLabel">验证码：</label><input type="text" class="loginInput" id="inputCode">
+                <span class="loginAlert" id="alert3">请输入验证码</span>
+                <img src="img/num.png">
+                <br><br>
+
+                <input type="button" value="登录" id="loginSure"><br>
+                <a href="register.html" id="loginToreg">立即注册</a>
+            </form>
+
+        <button id="loginClose">×</button>
+    </div>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
