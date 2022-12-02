@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url(../img/login.jpg) fixed center center no-repeat;
+    background-size: cover;
+}
+table {
+    margin: auto;
+    text-align: center;
+}
+.div1 {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 650px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+}
+.div2 {
+    position: absolute;
+    height: 620px;
+    width: 870px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+}
+form {
+    margin-top: 38px;
+    font-size: 20px;
+}
+table tr td:nth-child(1) {
+    width: 20px;
+    color: red;
+}
+table tr td:nth-child(3) {
+    font-size: 16px
+}
+/* table,td {
+    border: solid thin black;
+} */
+/* td {
+    height: 40px;
+} */
+.txt {
+    width: 230px;
+    height: 25px;
+    padding: 0 5px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+select {
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+}
+.txt:focus,select {
+    outline: none;
+    border: 1px solid #555;
+}
+input,select,img {
+    margin-left: 15px;
+}
+img {
+    width: 100px;
+    height: 32px;
+    pointer-events: none;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.likes {
+    font-size: 16px;
+}
+.btn {
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.btn:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+span {
+    color: red;
+    font-size: 14px;
+    display: none;
+    /* font-family: ; */
+}
+
+.checkTr {
+    height: 21px;
+}
+.spaceTr {
+    height: 10px;
+}
+
